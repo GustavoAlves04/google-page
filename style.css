@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+header i{
+    padding: 10px;
+    opacity: 0.8;
+}
+
+header i:hover{
+    background: #F0F0F0;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgba(0,0,0,.87);
+    font: 13px/27px Roboto, Arial, sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    height: 100%;
+}
